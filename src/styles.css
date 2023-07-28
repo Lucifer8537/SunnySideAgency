@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Barlow";
+  src: url("../src/fonts/Barlow/Barlow-Regular.ttf"),
+    url("../src/fonts/Barlow/Barlow-Black.ttf"),
+    url("../src/fonts/Barlow/Barlow-BlackItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-Bold.ttf"),
+    url("../src/fonts/Barlow/Barlow-BoldItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-ExtraBold.ttf"),
+    url("../src/fonts/Barlow/Barlow-ExtraBoldItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-ExtraLight.ttf"),
+    url("../src/fonts/Barlow/Barlow-ExtraLightItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-Italic.ttf"),
+    url("../src/fonts/Barlow/Barlow-Light.ttf"),
+    url("../src/fonts/Barlow/Barlow-LightItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-Medium.ttf"),
+    url("../src/fonts/Barlow/Barlow-MediumItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-SemiBold.ttf"),
+    url("../src/fonts/Barlow/Barlow-SemiBoldItalic.ttf"),
+    url("../src/fonts/Barlow/Barlow-Thin.ttf"),
+    url("../src/fonts/Barlow/Barlow-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../src/fonts/Fraunces-Italic-VariableFont.ttf"),
+    url("../src/fonts/Fraunces-Italic-VariableFont_SOFT.ttf");
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  overflow: visible;
+}
