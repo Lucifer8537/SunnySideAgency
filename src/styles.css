@@ -50,3 +50,112 @@ body {
 
   overflow: visible;
 }
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.creative {
+  background-image: url("../src/assets/desktop/image-header.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+.arrow-down {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.sub-heading {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+
+.paragraph {
+  color: hsl(212, 27%, 19%);
+
+  line-height: 1.5em;
+}
+.yellow {
+  height: 10px;
+  background-color: hsl(51, 100%, 49%, 0.3);
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
+.pink {
+  height: 10px;
+  background-color: hsl(7, 99%, 70%, 0.3);
+  border-radius: 5px;
+  margin-top: -8px;
+}
+.subtitle {
+  font-weight: 600;
+  font-family: "Fraunces";
+}
+.client-testimony-heading {
+  text-align: center;
+}
+.client-title {
+  font-weight: 900;
+  font-family: "Fraunces";
+  color: hsl(210, 4%, 67%);
+}
+.profile-container {
+  display: flex;
+}
+.profile {
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimony {
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+  line-height: 1.5em;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+.name-designation {
+  display: grid;
+  text-align: center;
+}
+.name {
+  font-weight: 900;
+  font-family: "Fraunces";
+  color: hsl(212, 27%, 19%);
+}
+.designation {
+  font-family: "Barlow";
+  color: hsl(210, 4%, 67%);
+  font-weight: 600;
+}
+.footer-container {
+  display: flex;
+}
+.footer-title-container {
+  text-align: center;
+  font-family: "Fraunces";
+  color: hsl(168, 34%, 41%);
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+.footer-link-container {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(168, 34%, 41%);
+  font-family: "Barlow";
+  font-weight: 600;
+}
+.social-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+.content {
+  width: 100%;
+  display: grid;
+}
